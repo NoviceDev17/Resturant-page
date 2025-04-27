@@ -2,6 +2,7 @@ import "./styles.css";
 import{about} from "./about.js";
 import{menu} from "./menu.js";
 import{clear} from "./clearContent.js";
+import chefImage from './images/chef.png';
 function homePage(){
     clear();
     //text
@@ -14,7 +15,7 @@ function homePage(){
     //image
     const img=document.createElement("img");
     img.id="chef-img";
-    img.src="../img/chef.png";
+    img.src=chefImage;
     //apend kids
     const div=document.getElementById("content");
     div.appendChild(text1);
